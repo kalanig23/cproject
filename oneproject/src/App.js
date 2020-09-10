@@ -7,9 +7,9 @@ import Header from './component/Header/header';
 function App() {
   return (
     <div className="App">
-        <Form />      
-        <List />
         <Header />
+        <List />
+        <Form />      
     </div>
   );
 }

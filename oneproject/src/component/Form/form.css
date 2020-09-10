@@ -82,6 +82,62 @@ p {
     margin: auto;
 }
 
+.age-input-filed {
+    display: flex;
+}
+
+.to {
+    width: 88px;
+    height: 28px;
+    left: 785px;
+    top: 1037px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.age-input {
+    width: 50%;
+    height: 100%;
+    left: 369.02px;
+    top: 611px;
+    border: 1px solid #4A4A4A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+
+.difficulty-input-filed {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.difficulty-level{
+    margin-left: 35%;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.difficulty-input {
+    width: 32%;
+    height: 80%;
+    left: 369.02px;
+    /* top: 611px; */
+    border: 1px solid #4A4A4A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    border-radius: 25px;
+}
+
 /* 
 .activity{
     left: 25.49%;

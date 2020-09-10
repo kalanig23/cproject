@@ -70,6 +70,26 @@ export default class form extends Component {
                         </div>
                     </div>
                 </div>
+                <div>
+                    <p>Duration</p>
+                    <div className="theraphy-input"></div>
+                </div>
+                <div>
+                    <p>Age Group</p>
+                    <div className="age-input-filed">
+                        <div className="age-input"></div>
+                        <span className="to">to</span>
+                        <div className="age-input"></div>
+                    </div>
+                </div>
+                <div>
+                    <p>Difficulty level</p>
+                    <div className="difficulty-input-filed">
+                        <div className="difficulty-input"><span className="difficulty-level">Easy</span></div>
+                        <div className="difficulty-input"><span className="difficulty-level">Medium</span></div>
+                        <div className="difficulty-input"><span className="difficulty-level">Hard</span></div>
+                    </div>
+                </div>
                 {/* <div className="activity">Activities > Create Activity</div>
                 <div className="title">Title</div>
                 <div className="title-content">Washing your hands, Skribble, etc.</div>

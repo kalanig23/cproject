@@ -1,3 +1,8 @@
 .App {
   text-align: center;
 }
+
+.form-list {
+  display: flex;
+  height: 100%;
+}
